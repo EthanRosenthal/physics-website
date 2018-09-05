@@ -1,0 +1,392 @@
+body
+{
+	background-color:#EEEEEE;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.introback {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-image: url('../img/stm render.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.intro {
+	position: relative;
+	padding-left: 10px;
+}
+
+.intro h1 {
+	color: #EEEEEE;
+	display: block;
+    font: bold 105px/45px Roboto, Sans-Serif;
+    letter-spacing: -1px;
+}
+
+.intro h2 {
+	color: #EEEEEE;
+	font: bold 45px/25px Roboto, Sans-Serif;
+    letter-spacing: -1px;
+	display: inline-block;
+	padding-right: 20px;
+	margin-top: -10px;
+}
+
+.intro a {
+	margin: 0px;
+	color: #EEEEEE;
+}
+
+/* Header */
+
+/* test background */
+
+
+#header {
+	position: relative;
+	display: block;
+	width: 800px;/* WAS 1100px */
+	height: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -40px;
+	}
+
+#header h1 {
+	position: absolute;
+	/*left: -50px;*/
+	color: #2e4d77;
+    font: bold 50px/45px Roboto, Sans-Serif;
+    letter-spacing: -1px;
+}
+
+#header ul {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px; /* WAS 1100px */
+	color: #2e4d77;
+    font:  30px Roboto, Sans-Serif;
+    letter-spacing: -1px;
+	list-style-type: none;
+	z-index: 10;
+	border-bottom: 1px solid #2e4d77;
+}
+
+
+#header li {
+	display:inline-block;
+	padding-right: 20px;
+	padding-left: 0px;
+
+}
+
+#header a {
+	margin: 0px;
+	display: block;
+}
+
+
+/* Link Stuff */
+
+a:link {
+	color: #2e4d77;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#2e4d77;
+	text-decoration:none;
+}
+
+a.current {
+	text-decoration: none;
+    color: #2e4d77;
+	opacity: 0.65;
+}
+
+a.glow,a.glow:hover ,a.glow:focus{
+    text-decoration: none;
+    color: #2e4d77;
+    text-shadow: none;
+    -webkit-transition: 250ms linear 0s;
+    -moz-transition: 250ms linear 0s;
+    -o-transition: 250ms linear 0s;
+    transition: 250ms linear 0s;
+    outline: 0 none;
+}
+
+a.glow:hover, a.glow:focus {
+    color: #2e4d77;
+	opacity: 0.65;
+}
+
+a.text {
+font-size: 20px;
+text-align:left;
+color:#486D67;
+font-weight: bold;
+font-family:'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+	position: relative;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: -10;
+	padding-top: 60px;
+}
+
+.wrapper p	{
+	/* padding-top: 120px; */
+	color:#2e4d77;
+	text-align: justify;
+	font-size: 20px;
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+/*Physics Page Stuff*/
+
+#physim {
+	width: 800;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#physim img {
+	width: 240px;
+	display: inline;
+	padding-left: 15px;
+	z-index:-1;
+}
+
+
+#physim a:hover {
+    -webkit-transition: 250ms linear 0s;
+    -moz-transition: 250ms linear 0s;
+    -o-transition: 250ms linear 0s;
+    transition: 250ms linear 0s;
+	opacity: 1;
+}
+
+#physim a {
+	width: 240;
+	height: 240;
+	z-index: 1;
+	opacity: 0.65;
+}
+
+
+
+#nbse2:target ~ #physim #nbse2-im ,
+#nbse2s:target ~ #physim #nbse2s-im,
+#nafeas:target ~ #physim #nafeas-im {
+	opacity: 1;
+}
+
+.physblurb {
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	opacity: 0;
+}
+
+
+.physblurb:target {
+	top: 250px;
+	width: 800px;
+    -webkit-transition: 250ms linear 0s;
+    -moz-transition: 250ms linear 0s;
+    -o-transition: 250ms linear 0s;
+    transition: 250ms linear 0s;
+	opacity: 1;
+}
+
+.physblurb p {
+	position: absolute;
+	padding-top: 10px;
+	color:#2e4d77;
+	text-align: justify;
+	font-size: 20px;
+	font-family:'Source Sans Pro', sans-serif;
+	float:left;
+}
+
+.physblurb img {
+	width: 150px;
+	float: right;
+	padding-left: 20px;
+}
+
+/*Engineering Page Stuff*/
+
+#engim {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#engim img {
+	width: 240px;
+	display: inline;
+	padding-left: 15px;
+	z-index:-1;
+}
+
+
+#engim a:hover {
+    -webkit-transition: 250ms linear 0s;
+    -moz-transition: 250ms linear 0s;
+    -o-transition: 250ms linear 0s;
+    transition: 250ms linear 0s;
+	opacity: 1;
+}
+
+#engim a {
+	width: 240;
+	height: 240;
+	z-index: 1;
+	opacity: 0.65;
+}
+
+
+
+#LT:target ~ #engim #LT-im ,
+#zpan:target ~ #engim #zpan-im,
+#xypan:target ~ #engim #xypan-im {
+	opacity: 1;
+}
+
+.engblurb {
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	opacity: 0;
+}
+
+
+.engblurb:target {
+	top: 250px;
+	width: 800px;
+    -webkit-transition: 250ms linear 0s;
+    -moz-transition: 250ms linear 0s;
+    -o-transition: 250ms linear 0s;
+    transition: 250ms linear 0s;
+	opacity: 1;
+	z-index: 10;
+}
+
+.engblurb p {
+	position: absolute;
+	padding-top: 10px;
+	color:#2e4d77;
+	text-align: justify;
+	font-size: 20px;
+	font-family:'Source Sans Pro', sans-serif;
+	float:left;
+}
+
+.engblurb img {
+	width: 150px;
+	float: right;
+	padding-left: 20px;
+}
+
+
+/*About Page Stuff*/
+
+.cv {
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	width: 800px;
+}
+
+.cv table, td {
+	color:#2e4d77;
+	text-align: left;
+	font-size: 16px;
+	font-family:'Source Sans Pro', sans-serif;
+	width: 800px;
+
+
+}
+
+.cv h5 {
+	text-align:left;
+	color: #474747;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.cv a {
+	font-size: 16px;
+	text-align:left;
+	color:#486D67;
+	font-weight: bold;
+	font-family:'Source Sans Pro', sans-serif;
+
+}
+
+/*Contact Page Stuff*/
+
+
+
+.contact {
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	width: 800px;
+	padding-top: 100px;
+}
+
+.contact table, .contact td {
+	color:#2e4d77;
+	text-align: center;
+	font-size: 16px;
+	font-family:'Source Sans Pro', sans-serif;
+	width: 800px;
+}
+
+.contact h5 {
+	text-align:center;
+	color: #474747;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.contact a {
+	font-size: 16px;
+	text-align:center;
+	color:#486D67;
+	font-weight: bold;
+	font-family:'Source Sans Pro', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+

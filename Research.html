@@ -1,0 +1,142 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+</head>
+
+<title>ethan rosenthal</title>
+
+
+<body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('.content').hide();
+    $(' .slide').click(function () {
+        var $this = $(this);
+        $(this).siblings('.content').slideToggle(250, function () {
+        });
+
+    });
+});
+</script>
+
+<link href="css/lightbox.css" rel="stylesheet" />
+
+
+
+<div class="all">
+<div class="image">
+	<img src="img/cdwpass_new.png" width="601px" alt="" />
+	<h2><span>Research</span></h2>
+	<h3><span><a href="index.html" class="glow">Welcome</a></span>
+	<span><a href="About.html" class="glow">About</a></span>
+	<span><a href="Research.html" class="current">Research</a></span>
+	<span><a href="Contact.html" class="glow">Contact</a></span>
+	
+	</h3>
+</div>
+
+<div class='main' id='rschlinks'>
+<p>
+My research at Columbia has consisted of both designing and building, as well as actually using, Scanning Tunneling Microscopes to image various materials with Scanning Tunneling Microscopy (STM) and Spectroscopy (STS). The sections below detail some aspects of these projects. 
+</p>
+
+<p>
+<h5>Physics</h5><hr style="width:50%;text-align:right;margin-left:0">
+</p>
+<p>
+Many of the materials that I have studied exhibit electronic superstructures. This manifests as a phase transition whereupon the electrons arrange into a different periodicity than that of the underlying crystal lattice. Among the materials below, NbSe<sub>2</sub> undergoes a charge density wave transition and NaFeAs has a spin density wave transition. These electronic superstructures often occur in materials which have other interesting and technologically useful phases such as high temperature superconductivity. Understanding the origin of the superstructures, as well as their interplay with other proximal phases, motivates this research to inform the design and synthesis of new materials to tune and control various electronic phenomena.
+<ul>
+<li><div class="slide">
+Charge density waves in NbSe<sub>2</sub>
+</div>
+<div class="content" id="imgtest">
+<a href="img/cdw/zoom defect.png" data-lightbox="CDW image set" title="Topographic image at T=38 K: 
+Individual selenium vacancy pinning local CDW order">
+<img src="img/cdw/zoom defect.png" style="margin-right:10px"></a>
+<a href="img/cdw/big cdw.png" data-lightbox="CDW image set" title="Large field of view topography at T=38 K showing patchs of local CDW order"></a>
+<a href="img/cdw/single atoms.png" data-lightbox="CDW image set" title="Individual Selenium atoms"></a>
+<br>
+NbSe<sub>2</sub> (Niobium Diselenide) is a transition metal dichalcogenide that has a charge density wave (CDW) phase below T<sub>CDW</sub>~33 Kelvin (K) and superconducts below 7 K. Although these properties of NbSe<sub>2</sub> have been studied for ~40 years, the CDW phase is still poorly understood. More recently, other modern materials like the cuprates, pnictides, and manganites have been found to exhibit density wave phases, as well. These materials often have competing phases and heavy disorder, so NbSe<sub>2</sub> serves as a clean test-bed to use modern, spectroscopic imaging techniques to better understand the CDW transition.<br><br>
+
+We found that, contrary to the conventional understanding of the second order CDW transition, intrinsic disorder in NbSe<sub>2</sub> pins static CDW order at temperatures well above T<sub>CDW</sub>. These nanoscale CDW "patches," which are nucleated by defects, grow in size with decreasing temperature until global order is established below T<sub>CDW</sub>. We were additionally able to infer a large CDW energy gap well below the Fermi energy. All of these findings point to electron-lattice interactions driving the CDW instability. <br><br>
+
+For more information, see <a href="http://arxiv.org/abs/1307.2282" class="text" target="_blank">arxiv.org/abs/1307.2282</a><br><br>
+
+
+</div>
+</li>
+
+<li><div class="slide">Charge order with disorder in NbSe<sub>2-x</sub>S<sub>x</sub></div>
+<div class="content" id="imgtest">
+<img src="img/nbse2s.png" style="margin-right:10px">
+<br>
+<a href="http://meetings.aps.org/Meeting/MAR13/Session/Y19.8" class="text" target="_blank">
+http://meetings.aps.org/Meeting/MAR13/Session/Y19.8</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+</li>
+<li><div class="slide">Electronic nematicity in NaFeAs</div>
+<div class="content" id="imgtest">
+<a href="img/nafeas/nafeas_domains_purp.png" data-lightbox="nafeas image set" title="Image at T=26 K showing low temperature domain structure">
+<img src="img/nafeas/nafeas_domains_purp.png" style="margin-right:10px"></a>
+<a href="img/nafeas/real and fft 26K.png" data-lightbox="nafeas image set" title="Spectroscopic imaging in real and Fourier space at T=26 K"></a>
+<a href="img/nafeas/super 26K 10meV.png" data-lightbox="nafeas image set" title="Average real space local density of states of all defects at T=26 K"></a>
+<br>
+
+NaFeAs (Sodium Iron Arsenide) is part of the class of recently discovered iron-based superconductors. Few iron-based superconductors exhibit bulk superconductivity in their undoped, parent state. Rather, many of these parent compounds undergo a tetragonal to orthorhombic sturcutral transition and a paramagnetic to collinear antiferromagnetic or spin density wave (SDW) transition at low temperatures. Upon doping the material, the orthorhombic and SDW phases are suppresed, and superconductivity appears. Thus, understanding the parent state from which superconductivity emerges may shed light on the nature of the unconventional superconductivity in the iron-based superconductors.<br><br>
+
+Although our STM is not sensitive to the spin of the electrons, the effects of the SDW can be seen with the STM through the anisotropic scattering of electrons off defects in the crystal. This shown in the image to the right as the bright yellow features which rotate in orientation at magnetic domain boundaries. High temperature (T>60K) STS measurements of NaFeAs reveal that some effects of the SDW are still seen even above the bulk ordering temperature (40K). This points to the important role of spin fluctuations in forming the SDW state from which superconductivity appears.<br><br>
+
+For more information, see <a href="http://arxiv.org/abs/1307.3526" class="text" target="_blank">arxiv.org/abs/1307.3526</a><br><br> 
+</div>
+
+</li>
+</ul>
+</p>
+<p>
+<h5>Instrumentation</h5><hr style="width:50%;text-align:right;margin-left:0">
+</p>
+<p>
+The above experiments have all been performed on custom-built, low temperature, ultra high vacuum (UHV) scanning tunneling microscopes. I have helped to design, build, and run these microscopes, and some of this process is detailed below.
+<ul>
+<li><div class="slide">Construction of low temperature STM</div>
+<div class="content" id="imgtest">
+<a href="img/ltconstruction/table.JPG" data-lightbox="uli stm" title="1,000 optical pound table">
+<img src="img/ULISTM.JPG" style="margin-right:10px"></a>
+<a href="img/ltconstruction/chambers no flange.JPG" data-lightbox="uli stm" title="Bare chambers"></a>
+<a href="img/ltconstruction/chambers some flange.JPG" data-lightbox="uli stm" title="More flanges, more bolts to tighten."></a>
+<a href="img/ltconstruction/chambers more flange.JPG" data-lightbox="uli stm" title="Almost closed up"></a>
+<a href="img/ltconstruction/cryostat open.JPG" data-lightbox="uli stm" title="Open cryostat"></a>
+<a href="img/ltconstruction/installing cryostat.JPG" data-lightbox="uli stm" title="Installing the cryostat"></a>
+<a href="img/ltconstruction/full system.JPG" data-lightbox="uli stm" title="Full microscope (clean)"></a>
+<a href="img/ltconstruction/wrapped up.JPG" data-lightbox="uli stm" title="Full microscope (tin foiled)"></a>
+
+<br>In the summer of 2011, we began constructing a custom-designed, low temperature STM. We assembled the machine, tested, extensively debugged, and now take data on it full time. The microscope has an extremely low Helium boil-off rate of 1.25 liters/day and is stable enough for multi-day spectroscopic imaging. Click on the image to the right to see some pictures of the assembly process.
+<br><br><br><br><br><br><br><br><br><br>
+</div>
+</li>
+<li><div class="slide">Prototype Pan walkers</div>
+<div class="content" id="imgtest">
+<a href="img/pan.jpg" data-lightbox="pan" title="">
+<img src="img/pan.jpg" style="margin-right:10px"></a>
+<br>Coming Soon
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>In the meantime:
+<iframe frameborder="0" height="480" width="750" style="padding: 20px 0px 0px 0px" allowFullScreen webkitallowfullscreen="true" mozallowfullscreen="true" src="https://sketchfab.com/nm5je10ba?autostart=0&transparent=0&autospin=0&controls=1"></iframe> <p style="font-size: 13px; font-weight:normal; margin: 5px; color: #4a4a4a"><strong><a style="color: #1caad9;" href="http://sketchfab.com/show/3a10dc58988748c69ed4b501eafaea00">Z Actuator Prototype</a> from <a style="color: #1caad9;" href="http://sketchfab.com/ethanrosenthal">Ethan Rosenthal</a> on <a style="color: #1caad9;" href="https://sketchfab.com">Sketchfab</a>.</strong></p>
+<br>
+</div>
+</li>
+</ul>
+</p>
+
+</div>
+</div>
+</body>
+
+
+</html>

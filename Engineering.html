@@ -1,0 +1,119 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href="css/lightbox.css" rel="stylesheet" />
+</head>
+
+<title>ethan rosenthal</title>
+
+
+<body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('.content').hide();
+    $(' .slide').click(function () {
+        var $this = $(this);
+        $(this).siblings('.content').slideToggle(250, function () {
+        });
+
+    });
+});
+</script>
+
+<div id="header">
+
+	<ul>
+
+	<li><a href="index.html" class="glow">Welcome</a></li>
+	<li><a href="About.html" class="glow">About</a></li>
+	<li><a href="Physics.html" class="glow">Physics</a></li>
+	<li><a href="Engineering.html" class="current">Engineering</a></li>
+    <li><a href="http://blog.ethanrosenthal.com" class="glow" target="_blank">Blog</a></li>
+	<li><a href="Contact.html" class="glow">Contact</a></li>
+
+	</ul>
+	<div id="separate">
+	</div>
+
+</div>
+
+<div class="wrapper">
+	<p>
+	A large part of my research at Columbia has consisted of designing and building scanning tunneling microscopes. Click the images below for some details on the engineering aspects of this work.
+	</p>
+</div>
+
+
+
+<div id="LT" class="engblurb">
+
+<p>
+
+<a href="img/LT/table_web.jpg" data-lightbox="LT image set" title="1,000 pound optical table">
+<img src="img/LT/installing-cryostat_web.jpg" /></a>
+<a href="img/LT/chambers-no-flange_web.jpg" data-lightbox="LT image set" title="Preparation and STM chamber mounted"></a>
+<a href="img/LT/chambers-some-flange_web.jpg" data-lightbox="LT image set" title="Flanges mounted"></a>
+<a href="img/LT/chambers-more-flange_web.jpg" data-lightbox="LT image set" title="More flanges mounted"></a>
+<a href="img/LT/cryostat-open_web.jpg" data-lightbox="LT image set" title="Opening and fixing cryostat"></a>
+<a href="img/LT/installing-cryostat_web.jpg" data-lightbox="LT image set" title="Placing cryostat on STM chamber"></a>
+<a href="img/LT/full-system_web.jpg" data-lightbox="LT image set" title="Fully assembled microscope"></a>
+<a href="img/LT/wrapped-up_web.jpg" data-lightbox="LT image set" title="Microscope after baking"></a>
+
+
+<span style="font-size:24px;font-weight:bold">Custom Low Temperature Microscope: </span>In the summer of 2011, we began constructing a custom-designed, low temperature STM. We assembled the machine, tested, extensively debugged, and now take data on it full time. This process spanned the gamut of engineering from the physical task of moving and assembling heavy equipment, to thermal radiation and conductance analysis, to <span style="font-style:italic">ex situ</span> diagnosis of electrical and mechanical issues.
+
+The microscope has an extremely low Helium boil-off rate of 1.25 liters/day and can maintain multi-day, millikelvin thermal stability over a wide temperature range of 5-80K. Click on the image to the right to see some pictures of the assembly process. <br><br>
+</p>
+</div>
+
+<div id="zpan" class="engblurb">
+<p>
+<a href="img/z mover/prism-1_web.jpg" data-lightbox="zpan image set" title="Preparing to mill the central prism">
+<img src="img/z mover/full-1_web.jpg" style="margin-right:10px"></a>
+
+<a href="img/z mover/prism-2_web.jpg" data-lightbox="zpan image set" title="All sides of the prism milled">
+<a href="img/z mover/prism-3_web.jpg" data-lightbox="zpan image set" title="Prism cut out of parent cylinder">
+<a href="img/z mover/piezo-mounts_web.jpg" data-lightbox="zpan image set" title="Piezo mounts">
+<a href="img/z mover/cylinder-1_web.jpg" data-lightbox="zpan image set" title="Milling the cylinder that surrounds the device">
+<a href="img/z mover/cylinder-2_web.jpg" data-lightbox="zpan image set" title="Milled cylinder before tapping">
+<a href="img/z mover/full-1_web.jpg" data-lightbox="zpan image set" title="Full device with BeCu spring and 44-gauge wiring on the piezos">
+<a href="img/z mover/full-2_web.jpg" data-lightbox="zpan image set" title="Top-down view of full device. The prism floats in the center while being sandwiched symmetrically by three sapphire-piezo-sapphire stacks">
+<a href="img/z mover/wired-1_web.jpg" data-lightbox="zpan image set" title="Room temperature testing station">
+<a href="img/z mover/wired-2_web.jpg" data-lightbox="zpan image set" title="Top-down view of room temperature testing station">
+
+<span style="font-size:24px;font-weight:bold">Piezoelectric Linear Actuator:</span> I designed and machined by hand a piezoelectric-driven, titanium actuator with a 1/2" range and sub-nanometer positioning resolution. The device is used for coarse positioning of the STM tip relative to the sample. Consequently, the actuator must be able to operate at extremely low temperatures(T~4 K), and the materials must be suitable for ultra high vacuum (P~10^-11 Torr). The device must also be compact - the cylinder that surrounds the device is 0.86" in diameter and 2" long.
+<br><br>
+The process of building the device involved designing parts and assemblies in SolidWorks, machining titanium on a mill and lathe, gluing and soldering piezoelectric actuators, and building a high vacuum testing apparatus for low temperature performance analysis. Click the image to the right for pictures of the building process. Check out the applet below to rotate and view a 3D model of the part.
+
+<br><br><br>
+
+<iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://sketchfab.com/models/3a10dc58988748c69ed4b501eafaea00/embed"></iframe>
+
+</p>
+</div>
+
+<div id="xypan" class="engblurb">
+<p>
+To come soon
+</p>
+</div>
+
+<!-- These sit below the blurbs because of the general sibling selector in the css.
+This is adapted from http://tympanus.net/codrops/2012/01/30/page-transitions-with-css3/ -->
+
+<div id="engim">
+
+<a id="LT-im" href="#LT"><img src="img/LT/full system square.JPG"/></a>
+<a id="zpan-im" href="#zpan"><img src="img/z mover/full-top-square_web.jpg" /></a>
+<a id="xypan-im" href="#xypan"><img src="img/xy mover/xy full 1 square.jpg" /></a>
+
+</div>
+
+</body>
+
+
+</html>

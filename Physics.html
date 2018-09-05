@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href="css/lightbox.css" rel="stylesheet" />
+</head>
+
+<title>ethan rosenthal</title>
+
+
+<body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('.content').hide();
+    $(' .slide').click(function () {
+        var $this = $(this);
+        $(this).siblings('.content').slideToggle(250, function () {
+        });
+
+    });
+});
+</script>
+<div id="header">
+	<ul>
+
+	<li><a href="index.html" class="glow">Welcome</a></li>
+	<li><a href="About.html" class="glow">About</a></li>
+	<li><a href="Physics.html" class="current">Physics</a></li>
+	<li><a href="Engineering.html" class="glow">Engineering</a></li>
+    <li><a href="http://blog.ethanrosenthal.com" class="glow" target="_blank">Blog</a></li>
+	<li><a href="Contact.html" class="glow">Contact</a></li>
+
+	</ul>
+	<div id="separate">
+	</div>
+
+</div>
+
+<div class="wrapper">
+	<p>
+	My research at Columbia has consisted of both designing and building, as well as actually using, scanning tunneling microscopes to image various materials. Click the images below for details on some of these materials.
+	</p>
+</div>
+
+
+
+<div id="nbse2" class="physblurb">
+
+<p>
+
+<a href="img/cdw/zoom-defect_web.jpg" data-lightbox="CDW image set" title="Topographic image at T=38 K:
+Individual selenium vacancy pinning local CDW order">
+<img src="img/cdw/zoom-defect_web.jpg" style="margin-right:10px"></a>
+<a href="img/cdw/big-cdw_web.jpg" data-lightbox="CDW image set" title="Large field of view topography at T=38 K showing patchs of local CDW order"></a>
+<a href="img/cdw/single-atoms_web.jpg" data-lightbox="CDW image set" title="Individual Selenium atoms"></a>
+
+<span style="font-size:24px;font-weight:bold">NbSe<sub>2</sub> (Niobium Diselenide) </span>is a transition metal dichalcogenide that has a charge density wave (CDW) phase below T<sub>CDW</sub>~33 Kelvin (K) and superconducts below 7 K. Although these properties of NbSe<sub>2</sub> have been studied for ~40 years, the CDW phase is still poorly understood. More recently, other modern materials like the cuprates, pnictides, and manganites have been found to exhibit density wave phases, as well. These materials often have competing phases and heavy disorder, so NbSe<sub>2</sub> serves as a clean test-bed to use modern, spectroscopic imaging techniques to better understand the CDW transition.<br><br>
+
+We found that, contrary to the conventional understanding of the second order CDW transition, intrinsic disorder in NbSe<sub>2</sub> pins static CDW order at temperatures well above T<sub>CDW</sub>. These nanoscale CDW "patches," which are nucleated by defects, grow in size with decreasing temperature until global order is established below T<sub>CDW</sub>. We were additionally able to infer a large CDW energy gap well below the Fermi energy. All of these findings point to electron-lattice interactions driving the CDW instability. <br><br>
+
+For more information, see <a href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.235115" class="text">Phys. Rev. B 89, 235115 (2014)</a><br><br>
+
+</p>
+</div>
+
+<div id="nbse2s" class="physblurb">
+<p>
+<span style="font-size:24px;font-weight:bold">NbSe<sub>2-x</sub>S<sub>x</sub> (Sulfer-doped Niobium Diselenide) </span> is a variant of NbSe<sub>2</sub> where some of the Selenium atoms have been replaced by Sulfur atoms. Sulfur sits right above Selenium on the periodic table, so Sulfur doping does not add or remove electrons. However, the Sulfur dopants do act as efficient scatterers of electrons in the crystal. By the introduction of these scatterers, we were able to visualize quasiparticle interference in NbSe<sub>2</sub> for the first time.<br><br>
+
+Imaging the interference patterns of electrons scattering off of Sulfur atoms reveals information about the electronic structure of NbSe<sub>2</sub>. We found out that the electrons did not scatter in the directions that would be expected from "non-interacting" calculations. Instead, it seems that the electrons interact with phonons (lattice vibrations) in the crystal which modifies their scattering behavior. <br><br>
+For more information, see <a href="http://arxiv.org/abs/1408.4432" class="text">arxiv.org/abs/1408.4432</a>
+ </p>
+</div>
+
+<div id="nafeas" class="physblurb">
+<p>
+<a href="img/nafeas/cover_web.jpg" data-lightbox="nafeas image set" title="Cover of March 2014 Nature Physics">
+<img src="img/nafeas/cover_web.jpg" style="margin-right:10px"></a>
+<a href="img/nafeas/super 26K 10meV.png" data-lightbox="nafeas image set" title="Average real space local density of states of all defects at T=26 K">
+<a href="img/nafeas/real-and-fft-26K_web.jpg" data-lightbox="nafeas image set" title="Spectroscopic imaging in real and Fourier space at T=26 K"></a>
+<a href="img/nafeas/nafeas_domains_purp_web.jpg" data-lightbox="nafeas image set" title="Image at T=26 K showing low temperature domain structure"></a>
+
+<span style="font-size:24px;font-weight:bold">NaFeAs (Sodium Iron Arsenide)</span> is part of the class of recently discovered iron-based superconductors. Few iron-based superconductors exhibit bulk superconductivity in their undoped, parent state. Rather, many of these parent compounds undergo a tetragonal to orthorhombic sturcutral transition and a paramagnetic to collinear antiferromagnetic or spin density wave (SDW) transition at low temperatures. Upon doping the material, the orthorhombic and SDW phases are suppresed, and superconductivity appears. Thus, understanding the parent state from which superconductivity emerges may shed light on the nature of the unconventional superconductivity in the iron-based superconductors.<br><br>
+
+Although our STM is not sensitive to the spin of the electrons, the effects of the SDW can be seen with the STM through the anisotropic scattering of electrons off defects in the crystal. This shown in the image to the right as the bright yellow features which rotate in orientation at magnetic domain boundaries. High temperature (T>60K) STS measurements of NaFeAs reveal that some effects of the SDW are still seen even above the bulk ordering temperature (40K). This points to the important role of spin fluctuations in forming the SDW state from which superconductivity appears.<br><br>
+
+For more information, see the article <a href="http://www.nature.com/nphys/journal/v10/n3/full/nphys2870.html" class="text" target="_blank">Nature Physics 10, 225-232 (2014)</a>
+</p>
+</div>
+
+<!-- These sit below the blurbs because of the general sibling selector in the css.
+This is adapted from http://tympanus.net/codrops/2012/01/30/page-transitions-with-css3/ -->
+
+<div id="physim">
+
+<a id="nbse2-im" href="#nbse2"><img src="img/cdw/T38K_BIG_web.jpg" /></a>
+<a id="nbse2s-im" href="#nbse2s"><img src="img/nbse2s/nbse2s_small_web.jpg" /></a>
+<a id="nafeas-im" href="#nafeas"><img src="img/nafeas/nafeas_domains_purp_web.jpg" /></a>
+
+</div>
+
+</body>
+
+
+</html>
