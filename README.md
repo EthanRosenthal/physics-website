@@ -1,1 +1,1 @@
-This is the repository for my personal website located at [ethanrosenthal.com](http://ethanrosenthal.com). The website is hosted by GitHub Pages.
+This code lives at physics.ethanrosenthal.com and is deployed by [netlify](https://www.netlify.com/)
